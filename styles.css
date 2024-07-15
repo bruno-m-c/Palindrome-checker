@@ -1,16 +1,18 @@
 html {
-
   scroll-behavior: smooth;
+  background-image: url(svgviewer-png-output.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
 #box {
-  background: #D9D9D950;
+  background: #D9D9D995;
   width: fit-content;
   height: fit-content;
   padding: 1.5em;
   border-radius: 1em;
   margin: 30vh auto;
+  z-index: 99;
 }
 
 h1 {
