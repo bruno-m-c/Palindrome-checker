@@ -47,32 +47,44 @@ input {
   width: 18em;
 }
 
+#result {
+  display: none;
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-size: 2.5em;
+  text-align: center;
+  width: 100%;
+  height: 1em;
+  border: none;
+  color: none;
+}
+
   
 
-  @media (max-width: 70em) {
-  html {
-    font-size: 85%;
-  }
-  input{
-    width: 14em;
-  }
-  }
-  
- 
-  @media (max-width: 40em) {
-  html {
-    font-size: 70%;
-  }
-  button {
-    width: 100%;
-    margin: 1em auto -1em;
-  }
-  input {
-    width: 98%;
-    height: 50%
-  }
-  #boxContent {
-    padding-bottom: 1em;
-  }
-  }
+@media (max-width: 70em) {
+html {
+  font-size: 85%;
+}
+input{
+  width: 14em;
+}
+}
+
+
+@media (max-width: 40em) {
+html {
+  font-size: 70%;
+}
+button {
+  width: 100%;
+  margin: 1em auto -1em;
+}
+input {
+  width: 98%;
+  height: 50%;
+}
+#boxContent {
+  padding-bottom: 1em;
+}
+}
     
