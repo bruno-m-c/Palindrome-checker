@@ -5,6 +5,7 @@ html {
 #box {
   background: #D9D9D995;
   width: fit-content;
+  max-width: 22em;
   height: fit-content;
   padding: 1.5em;
   border-radius: 1em;
@@ -51,13 +52,13 @@ input {
   display: none;
   font-family: 'IBM Plex Mono';
   font-style: normal;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
-  width: 100%;
+  width: fit-content;
   height: 1em;
-  border: none;
+  border: 1px dotted red;
   color: none;
-  margin-top: 0.5em;
+  margin: 0.5em auto;
 }
 
   
@@ -86,6 +87,9 @@ input {
 }
 #boxContent {
   padding-bottom: 1em;
+}
+#box {
+  max-width: 20em;
 }
 }
     
