@@ -62,7 +62,85 @@ input {
   word-wrap: break-word;
 }
 
-  
+#ground {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 80%;
+bottom: 0%;
+background: linear-gradient(0deg, #0E002D 0%, #142187 100%);
+}
+
+#sky {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 20%;
+background: linear-gradient(0deg, #009BBD 0%, #4C009F 53%, #19002A 99%);
+z-index: -1;
+
+}
+
+.MNT1 {
+  background: linear-gradient(0deg, #16003B 0.01%, #221B8C 100.01%);
+}
+
+#MNT1A {
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15em 0 0 5em;
+  border-color: transparent transparent transparent #16003B;
+  z-index: 2;
+}
+
+#MNT1B {
+  position: absolute;
+  bottom: 15%;
+  left: 0.5em;
+  width: 1.5em;
+  height: 0;
+  border-bottom: 12em solid #16003B;
+	border-right: 6em solid transparent;
+  z-index: 2;
+}
+
+#MNT1C {
+  position: absolute;
+  bottom: 15%;
+  left: 3em;
+  width: 0.5em;
+  height: 0;
+  border-bottom: 10em solid #16003B;
+	border-right: 6em solid transparent;
+  z-index: 2;
+}
+
+#MNT1D {
+  position: absolute;
+  bottom: 15%;
+  left: 4.5em;
+  width: 0;
+  height: 0;
+  border-bottom: 8.2em solid #16003B;
+	border-right: 20em solid transparent;
+  z-index: 2;
+}
+
+#MNT1E {
+  position: absolute;
+  bottom: 15%;
+  left: 10em;
+  width: 0;
+  height: 0;
+  border-bottom: 8.2em solid #16003B;
+	border-right: 20em solid transparent;
+  z-index: 2;
+}
 
 @media (max-width: 70em) {
 html {
