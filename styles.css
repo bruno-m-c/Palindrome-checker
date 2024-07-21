@@ -82,30 +82,28 @@ z-index: -1;
 }
 
 .MNT1 {
-  background: linear-gradient(0deg, #16003B 0.01%, #221B8C 100.01%);
+  background-image: linear-gradient(0deg, #16003B 0%, #1a3d95 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #MNT1A {
   position: absolute;
   bottom: 15%;
   left: 0;
-  width: 0;
-  height: 0;
-  background: linear-gradient(0deg, #16003B 0.01%, #221B8C 100.01%);
-  /*border-style: solid;
-  border-width: 15em 0 0 5em;
-  border-color: transparent transparent transparent #16003B;*/
+  width: 10em;
+  height: 18em;
+  clip-path: polygon(0 0, 16% 30%, 16% 100%, 0% 100%);
   z-index: 2;
 }
 
 #MNT1B {
   position: absolute;
   bottom: 15%;
-  left: 0.5em;
-  width: 1.5em;
-  height: 0;
-  border-bottom: 12em solid #16003B;
-	border-right: 6em solid transparent;
+  left: 1.5em;
+  width: 10em;
+  height: 13em;
+  clip-path: polygon(0 0, 10% 0, 44% 100%, 0% 100%);
   z-index: 2;
 }
 
@@ -113,10 +111,9 @@ z-index: -1;
   position: absolute;
   bottom: 15%;
   left: 3em;
-  width: 0.5em;
-  height: 0;
-  border-bottom: 10em solid #16003B;
-	border-right: 6em solid transparent;
+  width: 7em;
+  height: 10em;
+  clip-path: polygon(0 0, 15% 0, 83% 100%, 0% 100%);
   z-index: 2;
 }
 
@@ -124,10 +121,9 @@ z-index: -1;
   position: absolute;
   bottom: 15%;
   left: 4.5em;
-  width: 0;
-  height: 0;
-  border-bottom: 8.2em solid #16003B;
-	border-right: 20em solid transparent;
+  width: 15em;
+  height: 7em;
+  clip-path: polygon(0 0, 100% 90%, 83% 100%, 0% 100%);
   z-index: 2;
 }
 
@@ -135,10 +131,9 @@ z-index: -1;
   position: absolute;
   bottom: 15%;
   left: 17em;
-  width: 0;
-  height: 0;
-  border-bottom:3em solid #16003B;
-	border-right: 13em solid transparent;
+  width: 12em;
+  height: 1.5em;
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
   z-index: 2;
 }
 
