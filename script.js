@@ -8,7 +8,7 @@ function checkPalindrome() {
     alert('Please input a value');
     return;
   }
-  const cleanPalindromeInput = palindromeInput.value.replace(/[!+-.:;"',?*/><\s]/gi, "").toLowerCase();
+  const cleanPalindromeInput = palindromeInput.value.replace(/[!+-_.:();"',?*/><\s]/gi, "").toLowerCase();
   let result = `<strong>${palindromeInput.value}</strong> ${cleanPalindromeInput === [...cleanPalindromeInput].reverse().join("") ? `is` : `is not`} a palindrome `;
   output.style.display = "block";
   output.innerHTML = result;
