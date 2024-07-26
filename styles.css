@@ -81,71 +81,48 @@ input {
   z-index: -1;
 }
 
-.cont1 {
- /* background-image: linear-gradient(0deg, #16003B 0%, #1a3d95 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;*/
-  display: flex;
+.MNT1 {
+  background-image: linear-gradient(0deg, #16003B 0%, #122f79 100%);
   position: absolute;
   left: 0;
   bottom: 15%;
-  height: 25%;
-  width: 35%;
+  height: 13em;
+  width: 35em;
   z-index: 2;
-  border: thick double red
+  clip-path: polygon(4% 24%, 6% 24%, 8% 36%, 9.2% 35%, 13% 52%, 45% 85%, 100% 100%, 0 100%, 0 0);
 }
 
-.MNT1 {
-  background: linear-gradient(0deg, #16003B 0%, #1a3d95 100%);
-  background-size: 500%;
-  background-clip: content-box;
-}
-
-#MNT1A {
-  flex-grow: 1;
-  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
-  background-position: 0% 0%;
-}
-
-#MNT1B {
-  flex-grow: 1;
-  clip-path: polygon(0 0, 10% 0, 44% 100%, 0% 100%);
-  background-position: 25% 0%;
-}
-
-#MNT1C {
-  flex-grow: 2;
-  clip-path: polygon(0 0, 15% 0, 83% 100%, 0% 100%);
-  background-position: 50% 0%;
-}
-
-#MNT1D {
-  flex-grow: 3;
-  clip-path: polygon(0 0, 100% 90%, 83% 100%, 0% 100%);
-  background-position: 75% 0%;
-}
-
-#MNT1E {
-  flex-grow: 3;
-  clip-path: polygon(0 0, 0 100%, 100% 100%);
-  background-position: 100% 0%;
+.CONT2 {
+  position: absolute;
+  display: flex;
+  left: 8em;
+  bottom: 30%; /*19%*/
+  width: 45em;
+  height: 10em;
+  z-index: 1;
+  border: double thick;
 }
 
 .MNT2 {
-  display: none;
-  background-image: linear-gradient(180deg, #1C98D6 0%, #3744B5 80%, #330995 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  flex: 1;
+  background: RED; /*linear-gradient(0deg, #1C98D6 0%, #3744B5 80%, #330995 100%);*/
+  background-clip: content-box;
 }
 
-#MNT2A {
-  position: absolute;
-  left: 5em;
-  bottom: 19.5%;
-  width: 20em;
-  height: 14em;
-  clip-path: polygon(0% 100%, 100% 98%, 99% 66%, 85% 56%, 73% 65%, 63% 58%, 44% 74%, 23% 48%, 16% 57%, 16% 64%, 8% 69%, 10% 78%, 0% 100%);
-  z-index: 10;
+.TWOA {
+  clip-path: polygon(10% 90%, 21% 79%, 31% 80%, 57% 45%, 73% 37%, 78% 45%, 85% 38%, 85% 30%, 91% 25%, 100% 45%, 100% 100%, 0 100%);
+}
+
+.TWOB {
+  clip-path: polygon(0 100%, 100% 100%, 100% 30%, 92% 6%, 82% 17%, 72% 21%, 57% 14%, 42% 23%, 25% 3%, 9% 0, 0 17%);
+}
+
+.TWOC {
+  clip-path: polygon(0 100%, 0 57%, 7% 44%, 21% 38%, 21% 26%, 42% 11%, 42% 6%, 53% 7%, 62% 0, 63% 6%, 84% 12%, 88% 23%, 95% 24%, 100% 36%, 100% 100%);
+}
+
+.TWOD {
+  clip-path: polygon(40% 0, 38% 3%, 48% 10%, 53% 25%, 66% 38%, 84% 48%, 87% 68%, 92% 69%, 100% 99%, 0 100%, 0 48%, 27% 2%);
 }
 
 .star {
