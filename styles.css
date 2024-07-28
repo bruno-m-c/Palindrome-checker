@@ -169,13 +169,16 @@ input {
 }
 
 .HL {
-  flex: 1;
+  position: absolute;
+  /*flex: 1;*/
   background: #43B3F7;
   background-clip: content-box;
+  z-index: 3;
 }
 
 .S3A {
-  clip-path: polygon(39% 0%, 43% 37%, 41% 0);
+  width: 20em;
+  height: 10em;
 }
 
 .S3B {
