@@ -227,6 +227,44 @@ input {
   transform: rotate(65deg);
 }
 
+.S83A {
+  left: 21%; 
+  top: 7.9em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1em 0.9em 0 0;
+  border-color: #43B3F7 transparent transparent transparent;
+  transform: rotate(60deg);
+}
+
+.S13B {
+  left: 38.7%; 
+  top: 0.3em;
+  width: 0.9em;
+  height: 0.4em;
+  transform: rotate(75deg);
+}
+
+.S23B {
+  left: 39.4%; 
+  top: 0.9em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1em 0.9em 0 0;
+  border-color: #43B3F7 transparent transparent transparent;
+  transform: rotate(23deg);
+}
+
+.S33B {
+  left: 38.74%; 
+  top: 1.8em;
+  width: 1.5em;
+  height: 3%;
+  transform: rotate(90deg);
+}
+
 .star {
   width: 0.2em;
   height: 0.2em;
@@ -405,6 +443,9 @@ input{
 .S73A {
   display: none;
 }
+.S33B {
+  left: 38.3%; 
+}
 }
 
 
@@ -441,6 +482,12 @@ input {
 }
 .S73A {
   display: none;
+}
+.S13B {
+  left: 38.1%; 
+}
+.S33B {
+  left: 37.5%; 
 }
 }
     
