@@ -265,6 +265,28 @@ input {
   transform: rotate(90deg);
 }
 
+.S43B {
+  left: 39.9%; 
+  top: 2.5em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1.2em 0.8em 0 0;
+  border-color: #43B3F7 transparent transparent transparent;
+  transform: rotate(90deg);
+}
+
+.S53B {
+  left: 40.8%; 
+  top: 3em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3em 0.4em 0 0;
+  border-color: #43B3F7 transparent transparent transparent;
+  transform: rotate(179deg);
+}
+
 .star {
   width: 0.2em;
   height: 0.2em;
@@ -446,6 +468,7 @@ input{
 .S33B {
   left: 38.3%; 
 }
+
 }
 
 
@@ -488,6 +511,9 @@ input {
 }
 .S33B {
   left: 37.5%; 
+}
+.S53B {
+  left: 40.4%; 
 }
 }
     
