@@ -320,6 +320,36 @@ input {
   height: 1.2em;
 }
 
+.S103B {
+  left: 42%; 
+  top: 7.9em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1.5em 0.4em 0 0;
+  border-color: #43B3F7 transparent transparent transparent;
+  transform: rotate(90deg);
+}
+
+.S113B {
+  left: 43.4%;
+  top: 66.5%;
+  width: 5%;
+  height: 0.5em;
+  transform: rotate(-15deg);
+}
+
+.S123B {
+  left: 43.3%; 
+  top: 8.9em;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.8em 1.8em 0 0;
+  border-color: #43B3F7 transparent transparent transparent;
+  transform: rotate(86deg);
+}
+
 .star {
   width: 0.2em;
   height: 0.2em;
@@ -501,6 +531,12 @@ input{
 .S33B {
   left: 38.3%; 
 }
+.S113B {
+  left: 43.6%;
+}
+.S123B {
+  left: 42.5%; 
+}
 
 }
 
@@ -547,6 +583,10 @@ input {
 }
 .S53B {
   left: 40.4%; 
+}
+.S123B {
+  left: 41.5%;
+  transform: rotate(90deg); 
 }
 }
     
