@@ -93,6 +93,30 @@ input {
   clip-path: polygon(4% 24%, 6% 24%, 8% 36%, 9.2% 35%, 13% 52%, 45% 85%, 100% 100%, 0 100%, 0 0);
 }
 
+.Volcano1 {
+  position: absolute;
+  top: 8em;
+  left: 2em;
+  z-index: 9;
+}
+
+.VO1 {
+  height: 1em;
+  width: 2em;
+  background-color: #FF72A7;
+  border-radius: 52% 48% 27% 73% / 35% 38% 62% 65%; 
+}
+
+.VI1 {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  height: 0.5em;
+  width: 1em;
+  background-color: #FFDEDE;
+  border-radius: 52% 48% 27% 73% / 35% 38% 62% 65%; 
+}
+
 .CONT2 {
   position: absolute;
   display: flex;
@@ -349,6 +373,7 @@ input {
   border-color: #43B3F7 transparent transparent transparent;
   transform: rotate(86deg);
 }
+
 
 .star {
   width: 0.2em;
