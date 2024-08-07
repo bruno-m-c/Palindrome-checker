@@ -396,16 +396,53 @@ input {
 .Shadow {
   background: #190024;
   position: absolute;
+  opacity: 0.7;
 }
 
 .s1 {
-  clip-path: polygon(0 70%, 0 0, 70% 20%, 90% 39%, 100% 100%);
+  clip-path: polygon(0 80%, 0 0, 70% 20%, 90% 39%, 100% 100%);
   width: 19%;
-  height: 28%;
+  height: 25%;
   left: 8%;
   top: 13%;
-  opacity: 0.7;
+}
 
+.s2 {
+  clip-path: polygon(0 0, 100% 15%, 90% 25%, 73% 24%, 34% 100%, 23% 55%, 10% 57%);
+  width: 19%;
+  height: 20%;
+  left: 35%;
+  top: 13%;
+}
+
+.s3 {
+  clip-path: polygon(0% 0%, 0% 90%, 99% 100%, 80% 79%, 56% 77%, 58% 67%, 50% 64%, 48% 13%, 27% 12%, 29% 6%, 18% 5%);
+  width: 35%;
+  height: 65%;
+  left: 0;
+  bottom: 0;
+}
+
+.s4 {
+  clip-path: polygon(0 0, 22% 10%, 39% 16%, 42% 28%, 61% 34%, 100% 100%, 84% 97%, 27% 49%, 12% 46%);
+  width: 30%;
+  height: 52%;
+  left: 35%;
+  bottom: 0;
+}
+
+.Shadow1 {
+  background: #7EF1F6;
+  position: absolute;
+  opacity: 0.1;
+}
+
+.s5 {
+  clip-path: polygon(32% 0, 42% 50%, 100% 76%, 79% 100%, 49% 86%, 37% 100%, 15% 100%, 0 80%);
+  width: 60%;
+  height: 16%;
+  left: 8%;
+  top: 0%;
 }
 
 .star {
