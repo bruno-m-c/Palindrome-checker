@@ -461,6 +461,23 @@ input {
   bottom: 39%;
 }
 
+.s8 {
+  clip-path: polygon(0 18%, 25% 18%, 50% 12%, 85% 54%, 84% 66%, 95% 80%, 67% 100%, 19% 33%, 0 26%);
+  width: 23%;
+  height: 52%;
+  left: 48%;
+  bottom: 0%;
+}
+
+.s9 {
+  clip-path: polygon(73% 0, 100% 9%, 78% 62%, 0 100%, 63% 36%);
+  width: 18%;
+  height: 10%;
+  right: 10%;
+  bottom: 24%;
+}
+
+
 .Volcano2 {
   position: absolute;
   bottom: 37%;
@@ -491,6 +508,43 @@ input {
   border-radius: 5% 95% 77% 23% / 45% 80% 20% 55%; 
 }
 
+.sign {
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  width: 25%;
+  height: 20%;
+  z-index: 11;
+  margin-bottom: 0;
+}
+
+.metal {
+  background: #008460;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  color: #FFFFFF;
+}
+
+.line {
+  margin: 0.1em;
+  padding: 1em;
+  border: thick double #FFFFFF;
+}
+
+.wood {
+  background: #826848;
+  height: 1%;
+  height: 10%;
+  margin-top: -0.1em;
+}
+
+.wood:nth-last-of-type(1) {
+
+}
+
+.wood:nth-last-of-type(2) {
+  
+}
 
 .star {
   width: 0.2em;
