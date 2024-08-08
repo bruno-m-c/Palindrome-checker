@@ -445,6 +445,53 @@ input {
   top: 0%;
 }
 
+.s6 {
+  clip-path: polygon(16% 0, 58% 60%, 100% 75%, 41% 100%, 15% 90%, 23% 70%, 14% 65%, 0 21%);
+  width: 50%;
+  height: 10%;
+  left: 0;
+  top: 33%;
+}
+
+.s7 {
+  clip-path: polygon(0 4%, 50% 5%, 71% 10%, 85% 25%, 90% 60%, 60% 78%, 43% 73%, 0% 30%);
+  width: 26%;
+  height: 15%;
+  right: 38%;
+  bottom: 39%;
+}
+
+.Volcano2 {
+  position: absolute;
+  bottom: 37%;
+  left: 48%;
+  width: 20%;
+  height: 20%;
+  transform: rotate(-37deg);
+}
+
+.VO2 {
+  position: absolute;
+  top: 0;
+  height: 50%;
+  width: 50%;
+  background-color: #FF72A7;
+  border-radius: 5% 95% 77% 23% / 45% 80% 20% 55%;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: end;
+  box-shadow: 0 0 1em 0.2em #FF72A7;
+}
+
+.VI2 {
+  height: 60%;
+  width: 100%;
+  background-color: #FFDEDE;
+  border-radius: 5% 95% 77% 23% / 45% 80% 20% 55%; 
+}
+
+
 .star {
   width: 0.2em;
   height: 0.2em;
