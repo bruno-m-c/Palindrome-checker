@@ -511,39 +511,42 @@ input {
 .sign {
   position: absolute;
   right: 10%;
-  bottom: 10%;
-  width: 25%;
-  height: 20%;
+  bottom: 9%;
+  width: 26%;
+  max-width: 15em;
+  height: 21%;
   z-index: 11;
-  margin-bottom: 0;
 }
 
 .metal {
   background: #008460;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 80%;
+  font-size: 86%;
   color: #FFFFFF;
+  padding: 0.2em;
+  border-radius: 0.5em;
+  text-align: center;
 }
 
 .line {
-  margin: 0.1em;
-  padding: 1em;
-  border: thick double #FFFFFF;
+  padding: 0.5em;
+  border: 0.3em solid #FFFFFF;
+  border-radius: 0.5em;
 }
 
 .wood {
   background: #826848;
-  height: 1%;
-  height: 10%;
-  margin-top: -0.1em;
+  height: 19%;
+  width: 5%;
+  display: inline-block;
 }
 
 .wood:nth-last-of-type(1) {
-
+  margin-left: 37%;
 }
 
 .wood:nth-last-of-type(2) {
-  
+  margin-left: 25%;
 }
 
 .star {
