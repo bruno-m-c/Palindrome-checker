@@ -537,8 +537,9 @@ input {
 .wood {
   background: #826848;
   height: 19%;
-  width: 5%;
+  width: 0.7em;
   display: inline-block;
+  box-shadow: inset 0px 1em 0.8em -1em black;
 }
 
 .wood:nth-last-of-type(1) {
@@ -547,6 +548,26 @@ input {
 
 .wood:nth-last-of-type(2) {
   margin-left: 25%;
+}
+
+.Shadow2 {
+  margin-left: 100%;
+  background: #A2845E;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+  width: 20%;
+  height: 100%;
+}
+
+.SignShadow {
+  position: absolute;
+  right: 9%;
+  bottom: 5.7%;
+  clip-path: polygon(30% 0%, 22% 38%, 14% 38%, 0% 100%, 75% 100%, 88% 36%, 73% 36%, 88% 0%, 73% 0%, 65% 38%, 31% 39%, 39% 0%);
+  background-color: #000000;
+  opacity: 0.15;
+  width: 35%;
+  height: 6%;
+  z-index: 11;
 }
 
 .star {
