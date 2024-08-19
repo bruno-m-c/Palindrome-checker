@@ -598,6 +598,7 @@ input {
   filter: blur(0.08em);
 }
 
+
 @keyframes blink {
   50% {box-shadow: 0 0 1em 0.1em #c1e6ec;}
 }
