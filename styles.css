@@ -382,30 +382,41 @@ input {
 
 .CONT4 {
   display: flex;
+  flex-direction: row;
   position: absolute;
   bottom: 22.8%;
   left: 16%;
   width: 10em; /*12%*/
-  height: 10%;
+  height: 10em;/*10%*/
   z-index: 11;
+  justify-content: space-around;
   border: thin dotted red;
 }
 
 .Astronault1 {
-  position: absolute;
-  width: 100%;
+  width: 50%;
   height: 100%;
+  border: thin dotted yellow;
 }
 
 .bubble {
-  position: absolute;
-  width: 20%;
-  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 40%;
   background-color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-content: center;
+  border: thin dotted green;
 }
 
 .bubble::after {
 
+}
+
+.hide {
+  display: /*none*/;
 }
 
 .MNT4 {
