@@ -394,29 +394,47 @@ input {
 }
 
 .Astronault1 {
-  width: 50%;
+  position: absolute;
+  right: 0;
+  width: 70%;
   height: 100%;
   border: thin dotted yellow;
 }
 
 .bubble {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 40%;
+  width: 50%;
+  max-width: 4em;
   height: 40%;
+  max-height: 3em;
   background-color: white;
   border-radius: 50%;
   justify-content: center;
-  align-content: center;
+  align-items: center; 
   border: thin dotted green;
+  padding: 0.2em;
 }
 
-.bubble::after {
 
+.bubble::after {
+  content: '';
+  position: absolute;
+  top: 2.2em;
+  left: 3.5em;
+  transform: rotate(45deg);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.8em 0 0.7em 1.5em;
+  border-color: transparent transparent transparent white;
 }
 
 .hide {
-  display: /*none*/;
+  display: none;
 }
 
 .MNT4 {
