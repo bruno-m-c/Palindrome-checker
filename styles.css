@@ -381,18 +381,61 @@ input {
 }
 .CONT5 {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   bottom: 22.5%;
-  left: 15%;
+  right: 15%;
   width: fit-content; /*12%*/
-  height: 10em;/*10%*/
+  height: fit-content;/*10%*/
   z-index: 11;
-  justify-content: space-around;
   border: thin dotted red
 }
 
+.CONT5A {
+  width: fit-content;
+  height: fit-content;
+  border: thin dotted rgb(255, 0, 221)
+}
+
 .Astronault2 {
-  position: relative;
+  width: 50%;
+  height: 70%;
   border: thin dotted rgb(9, 255, 0)
+}
+
+.bubble2 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 50%;
+  max-width: 5em;
+  height: 40%;
+  max-height: 3em;
+  background-color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center; 
+  padding: 0.8em;
+}
+
+
+.bubble2::after {
+  content: '';
+  position: absolute;
+  top: 2.2em;
+  left: 3.5em;
+  transform: rotate(45deg);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.8em 0 0.7em 1.5em;
+  border-color: transparent transparent transparent white;
+}
+
+
+.rocket {
+  width: 70%;
+  height: 80%;
+  border: thin dotted rgb(255, 174, 0)
 }
 
 .CONT4 {
