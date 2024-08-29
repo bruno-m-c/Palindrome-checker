@@ -13,7 +13,7 @@ function checkPalindrome() {
   output.style.display = "block";
   output.innerHTML = result;
   palindromeInput.value = '';
-  bubble1.classList.remove('hide');
+  cleanPalindromeInput === [...cleanPalindromeInput].reverse().join("") ? `is` : bubble1.classList.remove('hide')
 }
 
 check.addEventListener("click", checkPalindrome);
