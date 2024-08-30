@@ -383,27 +383,35 @@ input {
   position: absolute;
   display: flex;
   flex-direction: column;
-  bottom: 22.5%;
-  right: 15%;
-  width: fit-content; /*12%*/
-  height: fit-content;/*10%*/
+  bottom: 20%;
+  right: 0%; /*-50%*/
+  width: 15em; 
+  height: 25em;
   z-index: 11;
-  border: thin dotted red
+}
+
+.move {
+  transition: transform 5s linear;
+  transform: translate(-120vw, -100%);
 }
 
 .CONT5A {
-  width: fit-content;
-  height: fit-content;
-  border: thin dotted rgb(255, 0, 221)
+  width: 100%;
+  height: 40%;
 }
 
 .Astronault2 {
-  width: 50%;
+  position: relative;
+  top: 65%;
+  left: 30%;
+  width: 45%;
   height: 70%;
-  border: thin dotted rgb(9, 255, 0)
 }
 
 .bubble2 {
+  position: relative;
+  top: 70%;
+  left: 12%;
   display: flex;
   flex-wrap: nowrap;
   width: 50%;
@@ -414,16 +422,16 @@ input {
   border-radius: 50%;
   justify-content: center;
   align-items: center; 
-  padding: 0.8em;
+  padding: 0.2em;
 }
 
 
 .bubble2::after {
   content: '';
   position: absolute;
-  top: 2.2em;
-  left: 3.5em;
-  transform: rotate(45deg);
+  bottom: -20%;
+  right: 10%;
+  transform: rotate(55deg);
   width: 0;
   height: 0;
   border-style: solid;
@@ -431,11 +439,9 @@ input {
   border-color: transparent transparent transparent white;
 }
 
-
 .rocket {
-  width: 70%;
-  height: 80%;
-  border: thin dotted rgb(255, 174, 0)
+  width: 100%;
+  height: 60%;
 }
 
 .CONT4 {
@@ -444,8 +450,8 @@ input {
   position: absolute;
   bottom: 22.5%;
   left: 15%;
-  width: 10em; /*12%*/
-  height: 10em;/*10%*/
+  width: 10em;
+  height: 10em;
   z-index: 11;
   justify-content: space-around;
 }
