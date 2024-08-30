@@ -398,9 +398,15 @@ input {
 .CONT5A {
   width: 100%;
   height: 40%;
+  width: 100%;
+  height: 40%;
 }
 
 .Astronault2 {
+  position: relative;
+  top: 65%;
+  left: 30%;
+  width: 45%;
   position: relative;
   top: 65%;
   left: 30%;
@@ -409,6 +415,9 @@ input {
 }
 
 .bubble2 {
+  position: relative;
+  top: 70%;
+  left: 12%;
   position: relative;
   top: 70%;
   left: 12%;
@@ -423,12 +432,16 @@ input {
   justify-content: center;
   align-items: center; 
   padding: 0.2em;
+  padding: 0.2em;
 }
 
 
 .bubble2::after {
   content: '';
   position: absolute;
+  bottom: -20%;
+  right: 10%;
+  transform: rotate(55deg);
   bottom: -20%;
   right: 10%;
   transform: rotate(55deg);
@@ -450,6 +463,8 @@ input {
   position: absolute;
   bottom: 22.5%;
   left: 15%;
+  width: 10em;
+  height: 10em;
   width: 10em;
   height: 10em;
   z-index: 11;
