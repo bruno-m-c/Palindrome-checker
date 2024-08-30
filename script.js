@@ -1,7 +1,8 @@
 const check = document.getElementById('checkButton');
 const palindromeInput = document.getElementById('inputBar');
 const output = document.getElementById('result');
-const bubble1 = document.getElementById('bubble')
+const bubble1 = document.getElementById('bubble');
+const cont5 = document.getElementsByClassName("CONT5");
 
 function checkPalindrome() {
   if (palindromeInput.value === '') {
@@ -13,7 +14,9 @@ function checkPalindrome() {
   output.style.display = "block";
   output.innerHTML = result;
   palindromeInput.value = '';
-  cleanPalindromeInput === [...cleanPalindromeInput].reverse().join("") ? `is` : bubble1.classList.remove('hide')
+  bubble1.classList.remove('hide');
+  cont5.classList.remove('hide');
+  cont5.classList.add('Transition');
 }
 
 check.addEventListener("click", checkPalindrome);
