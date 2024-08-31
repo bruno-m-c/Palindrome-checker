@@ -17,6 +17,8 @@ function checkPalindrome() {
   let result;
   if(isPalindrome){
     result = `<strong>${palindromeInput.value}</strong> is a palindrome `;
+    cont5.classList.remove('move');
+    void cont5.offsetWidth;
     cont5.classList.add('move');
   } else {
     result = `<strong>${palindromeInput.value}</strong> is not a palindrome `;

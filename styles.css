@@ -383,8 +383,8 @@ input {
   position: absolute;
   display: flex;
   flex-direction: column;
-  bottom: 20%;
-  right: 0%; /*-50%*/
+  bottom: 35%;
+  right: 0;
   width: 15em; 
   height: 25em;
   z-index: 11;
