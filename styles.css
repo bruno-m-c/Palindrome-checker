@@ -388,11 +388,13 @@ input {
   width: 15em; 
   height: 25em;
   z-index: 11;
+  visibility: hidden;
 }
 
 .move {
   transition: transform 5s linear;
   transform: translate(-120vw, -100%);
+  visibility: visible;
 }
 
 .CONT5A {
